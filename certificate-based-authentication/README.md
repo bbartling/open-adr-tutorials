@@ -1,9 +1,11 @@
 # certificate-based-authentication-tutorial
-This hands-on exploration and tutorial guide covers client and server authentication techniques employed in demand response applications, specifically within OpenADR. It focuses on a client application (OpenADR VEN) situated within a building, which communicates with a cloud-based server or OpenADR VTN for authentication purposes.
+This guide is designed to demonstrate the creation of client and server certificate and private key files, essential for simulating secure communications in OpenADR or similar applications. Our focus is on enabling robust authentication and encrypted interactions between a client (VEN - Virtual End Node) and a server (VTN - Virtual Top Node) using socket programming. While sockets are not a protocol in OpenADR, they serve as an effective "simulation protocol" for this tutorial, providing a simplified yet practical approach to understand x509 certificate handling.
 
-In this guide, we'll walk you through the process of creating client and server certificate and private key files for simulating secure communication in OpenADR or similar applications. These certificates will enable secure authentication and communication between a client (VEN - Virtual End Node) and a server (VTN - Virtual Top Node).
+In real-world scenarios, OpenADR 2.0B might employ XML-based HTTP push/pull or XXDP protocols for data exchange. However, our simulation will use socket programming to closely mimic the data exchange mechanisms and x509 client-server authentication found in OpenADR environments.
 
-[snip](/images/cert-based-auth-snip.JPG)
+The core objective of this tutorial is to guide you through the process of generating key files (.pem) using OpenSSL. These files will then be used in our simulation to replicate a simplified yet analogous version of OpenADR's data exchange and authentication processes, offering a practical insight into how OpenADR operates in a secure and authenticated manner.
+
+[!snip](/images/cert-based-auth-snip.JPG)
 
 # Prerequisites
 1. **OpenSSL**: Ensure that OpenSSL is installed on your system. If it's not installed, you can download it from the official OpenSSL website or use your system's package manager to install it.

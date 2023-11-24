@@ -3,7 +3,7 @@
 This server application is designed to interact with a building's control system, rather than directly reading and writing to field-level devices on the Operational Technology (OT) LAN. It operates by providing the `demand-response-level` point for the control system to access. The control system is then expected to implement the appropriate demand response strategy for the specific project. After executing this strategy, the control system should write back the power meter value to this application using the BACnet writable or commandable point named `power-level`. This value is then relayed to the open ADR server to complete the data exchange process.
 
 # Write-up
-* [on-linkedin](https://www.linkedin.com/pulse/open-adr-bacnet-client-app-ben-bartling-yedjc%3FtrackingId=JO8J3p4PS724bvvAt5my3Q%253D%253D/?trackingId=JO8J3p4PS724bvvAt5my3Q%3D%3D)
+* [on-linkedin](https://www.linkedin.com/posts/ben-bartling-510a0961_demandresponse-demandsidemanagement-hvac-activity-7132121138842796032-XE8-?utm_source=share&utm_medium=member_desktop)
 
 # Install packages with pip
 ```bash
