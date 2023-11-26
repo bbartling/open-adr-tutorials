@@ -70,7 +70,7 @@ When the client app starts copy the output of the VEN `fingerprint` which is use
 # VTN APP
 One the server openleadr app make sure its defined like:
 ```python
- Create the server object with X.509 certificate and private key
+# Create the server object with X.509 certificate and private key
 server = OpenADRServer(vtn_id='BensVTN',
                        http_cert='vtn_cert.pem',
                        http_key='vtn_key.pem',
